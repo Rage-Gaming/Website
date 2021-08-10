@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: rgb(0, 0, 0);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -326,16 +326,16 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #151515;
+  color: #ffffff;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #151515;
+  color: #ffffff;
   text-decoration: none;
-  background: #ffc451;
+  background: #ff0000;
 }
 
 .mobile-nav .drop-down > a:after {
