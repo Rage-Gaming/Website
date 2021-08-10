@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+This website has been devloped by Rage Gaming if you want any inquiry you contact me on instagram 
+https://www.instagram.com/chaos_rage_/
 
-Template Name: Gp
-Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+If you like me then you can also support me in YouTube
+
+https://www.youtube.com/channel/UCaN9EfFhiKmx1sM36Q-deMw
