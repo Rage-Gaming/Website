@@ -313,11 +313,15 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 15px;
-  left: 15px;
+  font-family: 'AmericanCaptain';
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  left: 53px;
+  right: 60px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #000;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -334,16 +338,16 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #151515;
+  color: #ffffff;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #151515;
+  color: #000000;
   text-decoration: none;
-  background: #ff2727;
+  background: #ffffff;
 }
 
 .mobile-nav .drop-down > a:after {
@@ -395,6 +399,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
+}
+
+.mobile #hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg.png") top center;
+  background-size: cover;
+  position: relative;
 }
 
 /*--------------------------------------------------------------
