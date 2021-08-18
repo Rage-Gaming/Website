@@ -336,12 +336,11 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav {
   position: fixed;
   top: 55px;
-  right: 15px;
   font-family: 'AmericanCaptain';
   font-weight: bolder;
   font-size: 20px;
   text-align: center;
-  left: 53px;
+  left: -1px;
   right: 60px;
   z-index: 9999;
   overflow-y: auto;
@@ -598,8 +597,8 @@ section {
   #hero h1 span {
     color: #ffffff;
     float: left;
-    min-width: 470px;
-    margin-top: 470px;
+    min-width: 373px;
+    margin-top: 476px;
     font-family: AmericanCaptain;
     letter-spacing: 6px;
     font-size: 50px;
