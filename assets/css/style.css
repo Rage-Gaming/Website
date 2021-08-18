@@ -574,6 +574,52 @@ section {
   color: #151515;
 }
 
+@media (max-width: 767px) {
+  #discord-join-id {
+    font-weight: bold;
+    border: solid;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 25%;
+    top: 754%;
+    left: 37%;
+  }
+  #discord-contact-id {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 25;
+    margin-right: 0;
+    font-weight: bold;
+  }
+  #hero h1 span {
+    color: #ffffff;
+    float: left;
+    min-width: 470px;
+    margin-top: 470px;
+    font-family: AmericanCaptain;
+    letter-spacing: 6px;
+    font-size: 50px;
+  }
+
+  #hero h1 span {
+    /* Create the gradient. */
+    background-image: linear-gradient(108deg, #ffffff, #ff0000);
+
+    background-size: 22%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  }
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
