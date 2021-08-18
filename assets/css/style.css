@@ -1,7 +1,31 @@
-
 @font-face {
   font-family: 'AmericanCaptain';
   src: url('../../Fonts/American\ Captain.ttf');
+}
+
+/*--------------------------------------------------------------
+# Scroll
+--------------------------------------------------------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 0, 0);
 }
 
 
@@ -446,8 +470,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 span {
-  color: #15ff00;
+  color: #ffffff;
   float: left;
+  min-width: 535px;
   margin-top: 626px;
   font-family: AmericanCaptain;
   letter-spacing: 1px;
