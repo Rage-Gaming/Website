@@ -1,4 +1,4 @@
-This website has been devloped by Rage Gaming if you want any inquiry you contact me on instagram 
+This website has been devloped by Rage Gaming if you need any inquiry you can contact me on instagram 
 https://www.instagram.com/chaos_rage_/
 
 If you like me then you can also support me in YouTube
