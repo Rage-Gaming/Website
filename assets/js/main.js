@@ -22,11 +22,20 @@
 
         if ($(this).attr("href") == '#header') {
           scrollto = 0;
+
+        }else if ($(this).attr("href") == '#rules') {
+          scrollto = 800;
+
+        }else if ($(this).attr("href") == '#forms') {
+          scrollto = 2847;
+
+        }else if ($(this).attr("href") == '#contact') {
+          scrollto = 3600;
         }
 
         $('html, body').animate({
           scrollTop: scrollto
-        }, 1500, 'easeInOutExpo');
+        }, 1700, 'easeInOutExpo');
 
         if ($(this).parents('.nav-menu, .mobile-nav').length) {
           $('.nav-menu .active, .mobile-nav .active').removeClass('active');
